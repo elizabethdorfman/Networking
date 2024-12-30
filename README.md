@@ -61,7 +61,7 @@ Clone the repository:
      python3 client.py
      ```
    - Send messages from one client and confirm that the other clients receive them.
-   - Change from TCP and UDP by modifying the import line to
+   - Change from UDP to TCP by modifying the import line to
       ```bash
       from chatroom import ClientTCP
       ```
