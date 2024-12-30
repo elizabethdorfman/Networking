@@ -1,6 +1,9 @@
+
+#Elizabeth Dorfman
+#Implementation of the Bellman-Ford algorithm for finding the shortest paths in a weighted network.
+
 import math
 import sys
-
 
 def calc_bellman_ford(source_node):
     distances = [math.inf] * num_nodes

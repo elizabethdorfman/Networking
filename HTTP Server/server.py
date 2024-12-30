@@ -1,7 +1,7 @@
+
 # Elizabeth Dorfman
-# Monday Sept 30
-# CS 3357A
-# Submitted to: Zubair Fadlullah
+#Implementation of an HTTP server capable of handling GET and POST requests.
+
 from socket import *
 import threading
 import time

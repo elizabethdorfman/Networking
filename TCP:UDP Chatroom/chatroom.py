@@ -1,3 +1,8 @@
+
+#Elizabeth Dorfman
+#Implements a chatroom application built using both TCP and UDP protocols.
+
+
 import socket
 import threading  # For threads
 import sys  # for print

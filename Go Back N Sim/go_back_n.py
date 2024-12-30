@@ -1,9 +1,5 @@
-# implement a gobackn protocol based system
-# CS 3357, Author: Elizabeth Dorfman, Submitted to: Zubair Fadlullahl, Nov 9, 2025
-
-# Make sure to log all events like the example
-# Use timeouts on blocking calls
-# Use try, except blocks in methods
+# Elizabeth Dorfman
+# Simulation of the Go-Back-N Automatic Repeat Request (ARQ) protocol for reliable data transmission.
 
 import time, threading, queue, logging, select
 
