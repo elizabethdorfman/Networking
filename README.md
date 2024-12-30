@@ -39,6 +39,7 @@ Clone the repository:
    ```bash
    git clone https://github.com/elizabethdorfman/Networking.git
    cd Networking
+   ```
 
 ## Testing Each Project
 
