@@ -45,28 +45,38 @@ Clone the repository:
 
 1. **HTTP Server:**
    - Launch the server by running the python file
+     ```bash
+     python3 server.py
+     ```
    - Use a browser to send HTTP GET/POST requests to the server.
 
 2. **TCP/UDP Chatroom:**
    - Open multiple terminal windows.
    - Run the server in one terminal:
      ```bash
-     python server_tcp.py
+     python3 server.py
      ```
    - Connect multiple clients from separate terminals:
      ```bash
-     python client_tcp.py
+     python3 client.py
      ```
    - Send messages from one client and confirm that the other clients receive them.
-
+   - Change from TCP and UDP by modifying the import line to
+      ```bash
+      from chatroom import ClientTCP
+      ```
+      
 3. **Go Back N:**
    - Run the test file directly to verify the implementation:
      ```bash
-     python test_gobackn.py
+     python3 test_gbn.py
      ```
    - The test file will simulate the Go-Back-N protocol, including packet loss and retransmissions, and log the results for verification.
 
 4. **Bellman Ford:**
    - Run the script with a predefined graph or input data.
+     ```bash
+     python3 bellmanford.py matrix.txt
+     ```
    - Verify the output for shortest paths and negative weight cycle detection.
 
